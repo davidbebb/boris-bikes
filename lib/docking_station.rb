@@ -4,7 +4,10 @@
 
 class DockingStation
 
-  def release_bike?
+  def release_bike
+    #create new instance of bike
+    return Bike.new
+
 
   end
 
